@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-items: center;
+    background-color: #FAF7FD;
+    color: #BB99DD;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    justify-content: center;
+}
+
+.principal {
+    width: 350px;
+}
+
+/* Foto */ 
+.foto {
+    height: 213px;
+    margin: 50px auto 0;
+    width: 213px;
+}
+
+.foto__circulo {
+    align-items: center;
+    border: 2px solid #BB99DD;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    height: 213px;
+    width: 213px;
+    
+}
+
+.foto__pessoa {
+    background-image: url('../assets/img/foto.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.foto__pessoa--gradiente {
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255,255,255,.8) );
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+/* Instagram */
+.instagram {
+    margin: 20px 0 30px;
+    text-align: center;
+    width: 100%;
+}
+
+.instagram__link{
+    text-decoration: none;
+}
+
+.instagram__link:visited {
+    color: #BB99DD;
+}
+
+/* Links */
+.links__lista {
+    display: flex;
+    flex-direction: column;
+    height: 254px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links__lista li {
+    list-style: none;
+}
+
+.links__lista__botao {
+    background-color: #FAF7FD;
+    border: 2px solid #BB99DD;
+    border-radius: 5px;
+    color: #BB99DD;
+    font-weight: bold;
+    font-size: 1rem;
+    height: 50px;
+    width: 325px;
+    transition: all .5s;
+    text-transform: uppercase;
+}
+
+.links__lista__botao:hover {
+    background-color: #BB99DD;
+    border: 2px solid #FAF7FD;
+    color: #FAF7FD;
+    cursor: pointer;
+;
+}
+
+/* Redes sociais */
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+    margin: 70px 0 50px;
+}
+
+.redes-sociais__lista {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.redes-sociais li{
+    list-style: none;
+}
